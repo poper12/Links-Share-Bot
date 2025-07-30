@@ -1,5 +1,4 @@
-# +++ Modified By Yato [telegram username: @i_killed_my_clan & @ProYato] +++ # aNDI BANDI SANDI JISNE BHI CREDIT HATAYA USKI BANDI RAndi 
-import os
+ import os
 import asyncio
 from config import *
 from pyrogram import Client, filters
@@ -53,7 +52,7 @@ async def autoapprove(client, message: ChatJoinRequest):
     if APPROVED == "on":
         invite_link = await client.export_chat_invite_link(chat.id)
         buttons = [
-            [InlineKeyboardButton('• ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs •', url='https://t.me/Codeflix_Bots')],
+            [InlineKeyboardButton('• ᴊᴏɪɴ ᴍʏ ᴄʜᴀᴛ ɢᴄ •', url='https://t.me/Manga_Campus_Chat')],
             [InlineKeyboardButton(f'• ᴊᴏɪɴ {chat.title} •', url=invite_link)]
         ]
         markup = InlineKeyboardMarkup(buttons)
