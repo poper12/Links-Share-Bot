@@ -13,8 +13,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5543390445"))
 PORT = os.environ.get("PORT", "8080")
 
 # Database
-DB_URI = os.environ.get("DB_URI", "")
-DB_NAME = os.environ.get("DB_NAME", "link")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://testingletsee:zwwpsYGUSaik5tXl@cluster0.wtvqre0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "Cluster9")
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()] # dont change anything 
@@ -34,7 +34,7 @@ HELP = os.environ.get("HELP_MESSAGE", "<b><blockquote expandable>» Our Communit
 ABOUT = os.environ.get("ABOUT_MESSAGE", "<b><blockquote expandable>This bot is developed by Aaru (@aaru_2075) to securely share Telegram channel links with temporary invite links, protecting our channels from copyright issues.</b>")
 
 ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/The_Awakeners'>ᴛʜᴇ ᴀᴡᴀᴋᴇɴᴇʀs</a>
-<blockquote expandable>›› ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/Manga_Campus_Chat'>Cʟɪᴄᴋ ʜᴇʀᴇ</a>
+<blockquote expandable>›› ᴄʜᴀᴛ ɢᴄ: <a href='https://t.me/Manga_Campus_Chat'>Cʟɪᴄᴋ ʜᴇʀᴇ</a>
 ›› ᴏᴡɴᴇʀ: <a href='https://t.me/aaru_2075'>ᴀᴀʀᴜ</a>
 ›› ʟᴀɴɢᴜᴀɢᴇ: <a href='https://docs.python.org/3/'>Pʏᴛʜᴏɴ 3</a>
 ›› ʟɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a>
@@ -43,7 +43,7 @@ ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/The_Awa
 
 CHANNELS_TXT = """<b>›› ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/animes_harvest'>ᴀɴɪᴍᴇ ʜᴀʀᴠᴇsᴛ</a>
 <blockquote expandable>›› ᴀᴅᴜʟᴛ ᴄʜᴀɴɴᴇʟs: <a href='https://t.me/Pleasures_Mortal'>Pʟᴇᴀsᴜʀᴇs Mᴏʀᴛᴀʟ</a>
-›› ᴍᴀɴʜᴡᴀ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/Manga_Campus'>ᴍᴀɴɢᴀ ᴄᴀᴍᴘᴜs</a>
+›› ᴍᴀɴɢᴀ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/Manga_Campus'>ᴍᴀɴɢᴀ ᴄᴀᴍᴘᴜs</a>
 ›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/The_Awakeners'>ᴛʜᴇ ᴀᴡᴀᴋᴇɴᴇʀs</a>
 ›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @aaru_2075</b></blockquote>""" 
 
@@ -54,12 +54,12 @@ USER_REPLY_TEXT = "⚠️ ғᴜᴄᴋ ʏᴏᴜ, ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ
 
 # Logging
 LOG_FILE_NAME = "links-sharingbot.txt"
-DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "")) # Channel where user links are stored
+DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "-1002824159562")) # Channel where user links are stored
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
 
 try:
     ADMINS = []
-    for x in (os.environ.get("ADMINS", "5543390445").split()):
+    for x in (os.environ.get("ADMINS", "5543390445 6180759790").split()):
         ADMINS.append(int(x))
 except ValueError:
     raise Exception("Your Admins list does not contain valid integers.")
