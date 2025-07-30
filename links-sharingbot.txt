@@ -1,0 +1,11 @@
+[31-Jul-25 00:47:08 - WARNING] - bot - Failed to notify owner (5543390445) of bot start: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it 
+[31-Jul-25 00:47:08 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/Aaru_2075
+[31-Jul-25 00:47:08 - INFO] - bot - 
+Links Sharing Started
+
+[31-Jul-25 00:47:08 - INFO] - bot - Web server started on 0.0.0.0:8080
+[31-Jul-25 00:47:14 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[31-Jul-25 00:47:14 - INFO] - bot - Bot stopped.
