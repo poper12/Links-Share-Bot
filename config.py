@@ -4,7 +4,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Recommended
-API_ID=
+API_ID=""
 API_HASH=""
 BOT_TOKEN=""
 USER_SESSION = False
