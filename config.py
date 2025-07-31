@@ -9,7 +9,7 @@ API_HASH=""
 BOT_TOKEN=""
 USER_SESSION = False
 # Main
-OWNER_ID = int(os.environ.get("OWNER_ID", "5543390445"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6975428639"))
 PORT = os.environ.get("PORT", "8080")
 
 # Database
@@ -59,14 +59,14 @@ DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "-1002824159562")) # C
 
 try:
     ADMINS = []
-    for x in (os.environ.get("ADMINS", "5543390445 6180759790").split()):
+    for x in (os.environ.get("ADMINS", "6975428639 6180759790 5543390445").split()):
         ADMINS.append(int(x))
 except ValueError:
     raise Exception("Your Admins list does not contain valid integers.")
 
 # Admin == OWNER_ID
 ADMINS.append(OWNER_ID)
-ADMINS.append(5543390445)
+ADMINS.append(6497757690)
 
 
 logging.basicConfig(
