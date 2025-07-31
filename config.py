@@ -5,9 +5,9 @@ from logging.handlers import RotatingFileHandler
 
 # Recommended
 API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.getiron.get("API_HASH","")
-BOT_TOKEN = os.getiron.get("BOT_TOKEN", "")
-USER_SESSION = os.getiron.get("USER_SESSION", "")
+API_HASH = os.environ.get("API_HASH","")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+USER_SESSION = os.environ.get("USER_SESSION", "")
 # Main
 OWNER_ID = int(os.environ.get("OWNER_ID", "6975428639"))
 PORT = os.environ.get("PORT", "8080")
