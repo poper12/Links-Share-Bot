@@ -30,7 +30,7 @@ START_PIC_FILE_ID = "https://telegra.ph/file/f3d3aff9ec422158feb05-d2180e3665e0a
 START_IMG = "https://telegra.ph/file/f3d3aff9ec422158feb05-d2180e3665e0ac4d32.jpg"
 # Messages
 START_MSG = os.environ.get("START_MESSAGE", "<b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ʟɪɴᴋs sʜᴀʀɪɴɢ ʙᴏᴛ. ᴡɪᴛʜ ᴛʜɪs ʙᴏᴛ, ᴡᴇ ᴄᴀɴ sᴀғᴇ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ғʀᴏᴍ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs.\n\n<blockquote>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/aaru_2075'>ᴀᴀʀᴜ</a></blockquote></b>")
-HELP = os.environ.get("HELP_MESSAGE", "<b><blockquote expandable>» Our Community: <a href=https://t.me/The_Awakeners>The Awakeners</a>\n» Anime Channel: <a href=https://t.me/animes_harvest>Anime Harvest</a>\n» Ongoing Anime: <a href=https://t.me/Ongoing_Mortals>Ongoing Mortal</a>\n» Manga/hwa/ua: <a href=https://t.me/Manga_Campus>Manga Campus</a>\n» Developer: <a href=https://t.me/aaru_2075>Aaru</a></b>")
+HELP = os.environ.get("HELP_MESSAGE", "<b><blockquote expandable>» Our Community: <a href=https://t.me/The_Awakeners>The Awakeners</a>\n» Anime Channel: <a href=https://t.me/anime_harvest>Anime Harvest</a>\n» Ongoing Anime: <a href=https://t.me/Ongoing_Mortals>Ongoing Mortal</a>\n» Manga/hwa/ua: <a href=https://t.me/Manga_Campus>Manga Campus</a>\n» Developer: <a href=https://t.me/aaru_2075>Aaru</a></b>")
 ABOUT = os.environ.get("ABOUT_MESSAGE", "<b><blockquote expandable>This bot is developed by Aaru (@aaru_2075) to securely share Telegram channel links with temporary invite links, protecting our channels from copyright issues.</b>")
 
 ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/The_Awakeners'>ᴛʜᴇ ᴀᴡᴀᴋᴇɴᴇʀs</a>
@@ -41,7 +41,7 @@ ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/The_Awa
 ›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>
 ›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @aaru_2075</b></blockquote>""" 
 
-CHANNELS_TXT = """<b>›› ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/animes_harvest'>ᴀɴɪᴍᴇ ʜᴀʀᴠᴇsᴛ</a>
+CHANNELS_TXT = """<b>›› ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/anime_harvest'>ᴀɴɪᴍᴇ ʜᴀʀᴠᴇsᴛ</a>
 <blockquote expandable>›› ᴀᴅᴜʟᴛ ᴄʜᴀɴɴᴇʟs: <a href='https://t.me/Pleasures_Mortal'>Pʟᴇᴀsᴜʀᴇs Mᴏʀᴛᴀʟ</a>
 ›› ᴍᴀɴɢᴀ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/Manga_Campus'>ᴍᴀɴɢᴀ ᴄᴀᴍᴘᴜs</a>
 ›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/The_Awakeners'>ᴛʜᴇ ᴀᴡᴀᴋᴇɴᴇʀs</a>
