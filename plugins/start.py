@@ -442,7 +442,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         try:
             await query.edit_message_media(
                 InputMediaPhoto(
-                    START_PIC,
+                    START_IMG,
                     START_MSG
                 ),
                 reply_markup=inline_buttons
