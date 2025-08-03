@@ -26,8 +26,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "40"))
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
 
 # Start pic
-START_PIC_FILE_ID = "https://telegra.ph/file/f3d3aff9ec422158feb05-d2180e3665e0ac4d32.jpg"
-START_IMG = "https://telegra.ph/file/f3d3aff9ec422158feb05-d2180e3665e0ac4d32.jpg"
+START_PIC_FILE_ID = "https://envs.sh/NU.jpg"
+START_IMG = "https://envs.sh/NU.jpg"
 # Messages
 START_MSG = os.environ.get("START_MESSAGE", "<b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ʟɪɴᴋs sʜᴀʀɪɴɢ ʙᴏᴛ. ᴡɪᴛʜ ᴛʜɪs ʙᴏᴛ, ᴡᴇ ᴄᴀɴ sᴀғᴇ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ғʀᴏᴍ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs.\n\n<blockquote>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/aaru_2075'>ᴀᴀʀᴜ</a></blockquote></b>")
 HELP = os.environ.get("HELP_MESSAGE", "<b><blockquote expandable>» Our Community: <a href=https://t.me/The_Awakeners>The Awakeners</a>\n» Anime Channel: <a href=https://t.me/anime_harvest>Anime Harvest</a>\n» Ongoing Anime: <a href=https://t.me/Ongoing_Mortals>Ongoing Mortal</a>\n» Manga/hwa/ua: <a href=https://t.me/Manga_Campus>Manga Campus</a>\n» Developer: <a href=https://t.me/aaru_2075>Aaru</a></b>")
