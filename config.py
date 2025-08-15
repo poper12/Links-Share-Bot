@@ -15,7 +15,7 @@ PORT = os.environ.get("PORT", "8040")
 
 # Database
 DB_URI = os.environ.get("DB_URI", "mongodb+srv://ganeshgite708:vhovfzpFGRTKVI2O@cluster0.sctr2i3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "Cluster5")
+DB_NAME = os.environ.get("DB_NAME", "linkshare")
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()] # dont change anything 
